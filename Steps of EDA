@@ -1,0 +1,38 @@
+1. **Exploratory Data Analysis (EDA)**
+
+   * Understand data structure, types (numerical, categorical), distributions, and relationships.
+   * Visualize data using histograms, box plots, count plots, etc.
+   * Detect missing values and outliers.
+
+2. **Handle Missing Values**
+
+   * Impute using mean, median, or mode.
+   * Use strategies based on outlier presence and data distribution.
+
+3. **Handle Outliers**
+
+   * Detect via box plots or IQR method.
+   * Remove or cap them based on context.
+
+4. **Data Cleaning**
+
+   * Remove redundant or irrelevant features.
+   * Normalize formats (e.g., convert duration `2h 50m` to minutes).
+
+5. **Feature Scaling**
+
+   * Standardize or normalize numerical data so all features are on the same scale.
+
+6. **Convert Categorical to Numerical**
+
+   * Use label encoding or one-hot encoding.
+   * Reduce high-cardinality features smartly.
+
+7. **Handle Imbalanced Data**
+
+   * Use techniques like oversampling, undersampling, or SMOTE.
+
+8. **Feature Selection**
+
+   * Choose important features using correlation, chi-square, KNN, genetic algorithms, or tree-based methods.
+   * Avoid the "curse of dimensionality" by reducing irrelevant features.
